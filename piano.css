@@ -1,0 +1,58 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.piano {
+    position: relative;
+    width: 700px;
+    height: 220px;
+    margin: 0 auto 40px auto;
+}
+
+.white {
+    width: 100px;
+    height: 220px;
+    background: white;
+    border: 1px solid #000;
+    float: left;
+}
+
+.black {
+    position: absolute;
+    width: 60px;
+    height: 130px;
+    background: black;
+    top: 0;
+}
+
+.b1 { left: 70px; }
+.b2 { left: 170px; }
+.b3 { left: 270px; }
+.b4 { left: 470px; }
+.b5 { left: 570px; }
+
+.description {
+    width: 650px;
+    margin: auto;
+    line-height: 1.6;
+    color: #333;
+}
